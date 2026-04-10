@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detalhes de produto Dragon Flex.">
+  <title>Produto | Dragon Flex</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-mark">DF</span> Dragon Flex</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a class="active" href="products.html">Produtos</a>
+        <a href="dragon-coin.html">Benefícios</a>
+        <a href="fest-tech.html">Fest Tech</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Buscar produtos" data-global-search>
+          <button class="btn" style="padding:.75rem 1rem" data-search-trigger>Buscar</button>
+        </div>
+        <button class="icon-btn" data-open-cart aria-label="Abrir carrinho">🛒<span class="cart-count" data-cart-count>0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Página individual de produto</span>
+        <h1 class="section-title">Detalhes completos do produto</h1>
+        <p class="section-subtitle">Galeria, descrição, avaliações, preço e prazo estimado de entrega em uma experiência mais próxima de grandes e-commerces.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1.8rem">
+      <div class="container product-detail" data-product-detail></div>
+    </section>
+  </main>
+
+  <div class="cart-overlay"></div>
+  <aside class="cart-drawer">
+    <div class="cart-header" style="display:flex;justify-content:space-between;align-items:center">
+      <strong>Seu carrinho</strong>
+      <button class="icon-btn" data-close-cart aria-label="Fechar carrinho">✕</button>
+    </div>
+    <div class="cart-items" data-cart-items></div>
+    <div class="cart-footer">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem"><strong>Total</strong><strong class="price" data-cart-total>R$ 0,00</strong></div>
+      <div class="cart-actions"><button class="btn btn-secondary" style="width:100%" data-clear-cart>Limpar carrinho</button><button class="btn" style="width:100%">Finalizar compra (simulado)</button></div>
+    </div>
+  </aside>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

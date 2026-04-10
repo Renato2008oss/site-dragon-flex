@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dragon Flex — e-commerce premium com moda, casa, esportes, utilidades e benefícios exclusivos.">
+  <title>Dragon Flex | E-commerce Premium</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-mark">DF</span> Dragon Flex</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu">☰</button>
+      <nav class="main-nav">
+        <a class="active" href="index.html">Início</a>
+        <a href="products.html">Produtos</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="fest-tech.html">Fest Tech</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Buscar produtos Dragon Flex" data-global-search>
+          <button class="btn" style="padding:.75rem 1rem" data-search-trigger>Buscar</button>
+        </div>
+        <button class="icon-btn" data-open-cart aria-label="Abrir carrinho">🛒<span class="cart-count" data-cart-count>0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-wrap">
+        <div class="hero-copy">
+          <span class="badge">Marca premium • UX inspirada em grandes marketplaces</span>
+          <h1>Dragon Flex — <span class="accent">Tudo que você precisa, em um só lugar.</span></h1>
+          <p>
+            Descubra uma experiência digital sofisticada, com navegação intuitiva, produtos selecionados e benefícios exclusivos.
+            A Dragon Flex conecta estilo, utilidade e confiança em um só ecossistema de compras.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="products.html">Explorar Produtos</a>
+            <a class="btn btn-secondary" href="fest-tech.html">Conhecer a Fest Tech</a>
+          </div>
+          <div class="stats-row">
+            <div class="stat"><strong>+12 mil</strong><span>clientes ativos no ecossistema fictício</span></div>
+            <div class="stat"><strong>4.8/5</strong><span>média de satisfação em destaque</span></div>
+            <div class="stat"><strong>Entrega ágil</strong><span>prazo estimado de 3 a 7 dias úteis</span></div>
+          </div>
+        </div>
+        <div class="hero-card hero-visual"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Produtos em destaque</h2>
+        <p class="section-subtitle">Seleção curada com visual premium e foco em itens desejados pelos clientes Dragon Flex.</p>
+        <div class="grid product-grid" data-highlight-products></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Categorias em destaque</h2>
+        <p class="section-subtitle">Navegue com facilidade pelas categorias principais da Dragon Flex. Sem eletrônicos nesta área — essa experiência fica exclusiva para a Fest Tech.</p>
+        <div class="grid category-grid">
+          <article class="card category-card reveal"><div class="category-icon">👕</div><div><h3>Roupas</h3><p class="muted">Peças casuais e premium com visual contemporâneo.</p></div></article>
+          <article class="card category-card reveal"><div class="category-icon">👜</div><div><h3>Acessórios</h3><p class="muted">Itens elegantes para complementar estilo e rotina.</p></div></article>
+          <article class="card category-card reveal"><div class="category-icon">🏠</div><div><h3>Casa</h3><p class="muted">Conforto, organização e design para o seu ambiente.</p></div></article>
+          <article class="card category-card reveal"><div class="category-icon">🏃</div><div><h3>Esportes</h3><p class="muted">Produtos práticos para movimento, treino e bem-estar.</p></div></article>
+          <article class="card category-card reveal"><div class="category-icon">📦</div><div><h3>Utilidades</h3><p class="muted">Soluções funcionais para o dia a dia com toque sofisticado.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <h2 class="section-title">Benefícios do ecossistema Dragon Flex</h2>
+        <p class="section-subtitle">A marca une relacionamento com clientes e valorização interna dos colaboradores com programas exclusivos.</p>
+        <div class="grid benefit-grid">
+          <article class="card benefit-card reveal">
+            <span class="badge">Dragon Coin • Clientes</span>
+            <h3>Acumule, acompanhe e troque vantagens</h3>
+            <p>O Dragon Coin transforma cada compra em novas possibilidades. Clientes acumulam pontos ao comprar no site e participar de promoções especiais.</p>
+            <ul class="feature-list">
+              <li><span class="check">✓</span><span>Pontos em compras selecionadas</span></li>
+              <li><span class="check">✓</span><span>Descontos exclusivos e trocas por produtos</span></li>
+              <li><span class="check">✓</span><span>Uso especial em ações da Fest Tech</span></li>
+            </ul>
+            <a class="btn" href="dragon-coin.html">Saiba mais</a>
+          </article>
+          <article class="card benefit-card reveal">
+            <span class="badge">Dragon Card • Colaboradores</span>
+            <h3>Reconhecimento, incentivo e suporte interno</h3>
+            <p>O Dragon Card foi criado para fortalecer a cultura da empresa, incentivar desempenho e apoiar colaboradores em iniciativas físicas e profissionais.</p>
+            <ul class="feature-list">
+              <li><span class="check">✓</span><span>Incentivo financeiro anual</span></li>
+              <li><span class="check">✓</span><span>Apoio a lojas físicas dos colaboradores</span></li>
+              <li><span class="check">✓</span><span>Programa de reconhecimento interno</span></li>
+            </ul>
+            <a class="btn btn-secondary" href="dragon-card.html">Saiba mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contato">
+    <div class="container footer-grid">
+      <div>
+        <h3>Dragon Flex</h3>
+        <p>E-commerce fictício com proposta premium, visual marcante e navegação fluida. A Dragon Flex conecta estilo, praticidade e experiência digital de alto padrão.</p>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li>contato@dragonflex.com</li>
+          <li>(11) 4000-2026</li>
+          <li>São Paulo • Brasil</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Redes sociais</h3>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-overlay"></div>
+  <aside class="cart-drawer">
+    <div class="cart-header" style="display:flex;justify-content:space-between;align-items:center">
+      <strong>Seu carrinho</strong>
+      <button class="icon-btn" data-close-cart aria-label="Fechar carrinho">✕</button>
+    </div>
+    <div class="cart-items" data-cart-items></div>
+    <div class="cart-footer">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem"><strong>Total</strong><strong class="price" data-cart-total>R$ 0,00</strong></div>
+      <div class="cart-actions"><button class="btn btn-secondary" style="width:100%" data-clear-cart>Limpar carrinho</button><button class="btn" style="width:100%">Finalizar compra (simulado)</button></div>
+    </div>
+  </aside>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

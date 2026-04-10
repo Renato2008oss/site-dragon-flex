@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dragon Card — benefícios para colaboradores Dragon Flex.">
+  <title>Dragon Card | Dragon Flex</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-mark">DF</span> Dragon Flex</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="products.html">Produtos</a>
+        <a class="active" href="dragon-card.html">Benefícios</a>
+        <a href="fest-tech.html">Fest Tech</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Buscar produtos" data-global-search>
+          <button class="btn" style="padding:.75rem 1rem" data-search-trigger>Buscar</button>
+        </div>
+        <button class="icon-btn" data-open-cart aria-label="Abrir carrinho">🛒<span class="cart-count" data-cart-count>0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Benefícios para colaboradores</span>
+        <h1 class="section-title">Dragon Card</h1>
+        <p class="section-subtitle">Um programa institucional com tom corporativo e motivador, criado para valorizar desempenho, fortalecer cultura e apoiar crescimento profissional dentro da Dragon Flex.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1.6rem">
+      <div class="container grid info-grid">
+        <article class="card info-card reveal">
+          <h3>💳 O que é o Dragon Card</h3>
+          <p class="muted">É o programa interno de benefícios da Dragon Flex, voltado para colaboradores que se destacam em performance, inovação e compromisso com a experiência do cliente.</p>
+        </article>
+        <article class="card info-card reveal">
+          <h3>⚙️ Como funciona</h3>
+          <p class="muted">O cartão reúne vantagens e reconhecimentos anuais. A empresa utiliza critérios fictícios como metas cumpridas, colaboração entre áreas e participação em projetos estratégicos.</p>
+        </article>
+        <article class="card info-card reveal">
+          <h3>🏆 Reconhecimento interno</h3>
+          <p class="muted">Além do incentivo financeiro, o Dragon Card destaca profissionais em campanhas internas, eventos da marca e programas especiais de desenvolvimento.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid benefit-grid">
+        <article class="card benefit-card reveal">
+          <h3>Incentivo financeiro anual</h3>
+          <p>Colaboradores elegíveis recebem um crédito fictício anual destinado a bem-estar, capacitação, estrutura de trabalho e reconhecimento de resultados.</p>
+        </article>
+        <article class="card benefit-card reveal">
+          <h3>Apoio a lojas físicas dos colaboradores</h3>
+          <p>O programa também contempla suporte institucional para colaboradores que possuem lojas físicas parceiras, ampliando visibilidade e integração com o ecossistema Dragon Flex.</p>
+        </article>
+        <article class="card benefit-card reveal">
+          <h3>Jornada motivadora</h3>
+          <p>Metas claras, feedbacks consistentes e comunicação visual inspiradora fazem do Dragon Card uma ferramenta de engajamento de marca empregadora.</p>
+        </article>
+        <article class="card benefit-card reveal">
+          <h3>Experiência corporativa premium</h3>
+          <p>O design do programa reforça pertencimento, excelência e orgulho interno, alinhado à identidade visual sofisticada da empresa.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="cart-overlay"></div>
+  <aside class="cart-drawer">
+    <div class="cart-header" style="display:flex;justify-content:space-between;align-items:center">
+      <strong>Seu carrinho</strong>
+      <button class="icon-btn" data-close-cart aria-label="Fechar carrinho">✕</button>
+    </div>
+    <div class="cart-items" data-cart-items></div>
+    <div class="cart-footer">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem"><strong>Total</strong><strong class="price" data-cart-total>R$ 0,00</strong></div>
+      <div class="cart-actions"><button class="btn btn-secondary" style="width:100%" data-clear-cart>Limpar carrinho</button><button class="btn" style="width:100%">Finalizar compra (simulado)</button></div>
+    </div>
+  </aside>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
